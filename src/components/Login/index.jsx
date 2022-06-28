@@ -48,12 +48,12 @@ const Login = (props) => {
                         <h2>connexion</h2>
                         < form onSubmit={handleSubmit}>
                             <div className="inputBox">
-                                <input onChange={e => {setEmail(e.target.value)}}   type="text" value={email} autoComplete="off" required/>
+                                <input onChange={e => {setEmail(e.target.value)}}   type="email" value={email} autoComplete="off" required/>
                                 <label>email</label>
                             </div>
 
                             <div className="inputBox">
-                                <input onChange={e => setPassword(e.target.value)}   type="email" value={password} autoComplete="off" required/>
+                                <input onChange={e => setPassword(e.target.value)}   type="password" value={password} autoComplete="off" required/>
                                 <label >password</label>
                             </div>
                             {btn ? <button>connexion</button> : <button disabled>connexion</button>}
