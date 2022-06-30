@@ -1,13 +1,15 @@
 import app from 'firebase/app'
+
 import 'firebase/auth'
 
 const Config = {
-    apiKey: "AIzaSyCFJGN-OtIWdliA-m77EPiuzAYF2hXBudc",
-    authDomain: "appli-capcom.firebaseapp.com",
-    projectId: "appli-capcom",
-    storageBucket: "appli-capcom.appspot.com",
-    messagingSenderId: "472608260451",
-    appId: "1:472608260451:web:2fc4d87d601eb0915a5356"
+    apiKey: "AIzaSyCwkjCqCA7gYcrfIrhLFHbzZySIKEEBLcM",
+    authDomain: "capcom-ligue.firebaseapp.com",
+    projectId: "capcom-ligue",
+    storageBucket: "capcom-ligue.appspot.com",
+    messagingSenderId: "922012787317",
+    appId: "1:922012787317:web:8c721c3a3e16dbf944ce3c",
+    measurementId: "G-KYSLHWBD6N"
   };
 
 class Firebase{
